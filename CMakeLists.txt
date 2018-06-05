@@ -1,0 +1,11 @@
+project(debug)  
+if(COMMAND cmake_policy)
+      cmake_policy(SET CMP0003 NEW)
+    endif(COMMAND cmake_policy)
+find_package(OpenCV 2.4.12 REQUIRED)  
+add_executable(debug main.cpp)  
+add_executable(camera camera.cpp)  
+target_link_libraries(debug ${OpenCV_LIBS})  
+target_link_libraries(camera ${OpenCV_LIBS})  
+cmake_minimum_required(VERSION 3.2)
+

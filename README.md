@@ -1,1 +1,4 @@
-# Camera_calibration
+# debug
+Prepare pictures for calibration
+# camera
+Show image after rectification
