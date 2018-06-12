@@ -1,4 +1,2 @@
-# debug
-Prepare pictures for calibration
-# camera
-Show image after rectification
+# opencv_test
+just for opencv start

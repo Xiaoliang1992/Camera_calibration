@@ -45,7 +45,7 @@ int main()
         remap(frame, frameCalibration, map1, map2, INTER_LINEAR);
         imshow("Origianl", frame);
         imshow("Calibration", frameCalibration);
-        char key = waitKey(1);
+        char key = waitKey(50);
         if (key == 27 || key == 'q' || key == 'Q')break;
     }
     return 0;
